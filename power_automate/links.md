@@ -6,5 +6,8 @@
 
 ## Entornos
 [¿Qué son los entornos en Power Automate?](https://www.youtube.com/watch?v=2AMTMZ_wVJw)
+
 [Entornos en Power Apps | ¿qué son?, ¿qué tipos hay? Y cómo crearlos](https://www.youtube.com/watch?v=PwBDBk4xgJU)
+
+[Detalles del almacenamiento basado en la capacidad de Dataverse](https://learn.microsoft.com/es-es/power-platform/admin/capacity-storage?)
 
