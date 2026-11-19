@@ -35,7 +35,7 @@ Add-MailboxPermission `
 ```Powershell
 Add-RecipientPermission `
     -Identity automatizaciones@zg7wc.onmicrosoft.com `
-    -Trustee alex@empresa.com `
+    -Trustee AlexW@zg7wc.onmicrosoft.com `
     -AccessRights SendAs
 ```
 ### Verificar la configuración
