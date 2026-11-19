@@ -24,33 +24,34 @@ New-Mailbox `
     -PrimarySmtpAddress automatizaciones@zg7wc.onmicrosoft.com
 ```
 ### Conceder permisos de acceso
-
+```Powershell
 Add-MailboxPermission `
     -Identity automatizaciones@zg7wc.onmicrosoft.com `
     -User AlexW@zg7wc.onmicrosoft.com `
     -AccessRights FullAccess `
     -InheritanceType All
-
+```
 ### Conceder permiso Send As
-
+```Powershell
 Add-RecipientPermission `
     -Identity automatizaciones@zg7wc.onmicrosoft.com `
     -Trustee alex@empresa.com `
     -AccessRights SendAs
-
+```
 ### Verificar la configuración
 
 ### Comprobar el buzón:
 
-PowerShell
-Get-Mailbox powerautomate@empresa.com
-
+```Powershell
+Get-Mailbox automatizaciones@zg7wc.onmicrosoft.com
+```
 ### Comprobar permisos Full Access:
 
-PowerShell
-Get-MailboxPermission powerautomate@empresa.com
+```PowerShell
+Get-MailboxPermission automatizaciones@zg7wc.onmicrosoft.com
+```
+### Comprobar permisos Send As:
 
-Comprobar permisos Send As:
-
-PowerShell
-Get-RecipientPermission powerautomate@empresa.com
+```PowerShell
+Get-RecipientPermission automatizaciones@zg7wc.onmicrosoft.com
+```
